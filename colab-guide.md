@@ -32,3 +32,8 @@ Google 드라이브 접속 (https://drive.google.com)
 
 
 ![image](https://github.com/user-attachments/assets/f6421b09-ed55-4803-9537-8eb91f83d7ec)
+
+🔍 용도별 추천 설정
+
+![image](https://github.com/user-attachments/assets/de8bf606-0736-4a7e-af71-478696e835e7)
+
