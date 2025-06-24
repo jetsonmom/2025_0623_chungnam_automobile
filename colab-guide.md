@@ -34,4 +34,7 @@ Google 드라이브 접속 (https://drive.google.com)
 마크다운(글 설명) 작성하는 공간
 🔄 런타임
 실행 환경 ( GPU,선택)
+![image](https://github.com/user-attachments/assets/b0228613-9e87-4a60-8a92-47b5724684af)
+
+
 ![image](https://github.com/user-attachments/assets/f6421b09-ed55-4803-9537-8eb91f83d7ec)
