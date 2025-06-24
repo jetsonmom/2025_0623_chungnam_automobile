@@ -1,7 +1,7 @@
 # 📘 AI 학습 정리  
 
 ## 1. About GitHub, Markdown, Colab
-- - [GitHub 사용법](github-guide.md)
+- [GitHub 사용법](github-guide.md)
 - [Markdown 문법](#markdown-문법)  
 - [Colab 기초](#colab-기초)
 
@@ -40,13 +40,13 @@
 - [YOLOv12](./YOLOv12_test.md)
 
 ## 9. TAO Toolkit on RunPod
-- [TAO_사용법](.TAO_install.md)
+- [TAO_사용법](./TAO_install.md)
 - [TAO_Toolkit](.TAO_Toolkit.md)
 
 ## 10. 칼만필터, CARLA, 경로 알고리즘
-- [kalman](.kalman.md)
-- [CARLA_simulator](.CARLA.md)
+- [kalman](./kalman.md)
+- [CARLA_simulator](./CARLA.md)
 
 ## 11. ADAS & (ADAS TensorRT vs PyTorch)
-- [adas_basic](.adas_basic.md)
-- [TensorRT vs PyTorch 비교](.vs.md)
+- [adas_basic](./adas_basic.md)
+- [TensorRT vs PyTorch 비교](./vs.md)
