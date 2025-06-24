@@ -37,3 +37,15 @@ Google 드라이브 접속 (https://drive.google.com)
 
 ![image](https://github.com/user-attachments/assets/de8bf606-0736-4a7e-af71-478696e835e7)
 
+🪜 3단계: 코드 실행하기
+
+▶️ 기본 코드 입력
+print("Hello, Colab!")
+위 코드를 셀에 입력하고
+
+
+[Shift + Enter] 또는 ▶️ 버튼 클릭 → 실행 결과가 아래에 나옵니다
+
+🪜 4단계: 셀 추가 / 삭제 / 복사
+![image](https://github.com/user-attachments/assets/6f577c97-639c-468e-a3e4-10389229ecd2)
+
