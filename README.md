@@ -3,7 +3,7 @@
 ## 1. About GitHub, Markdown, Colab
 - [GitHub 사용법](#github-사용법)
 
-
+---
 ## GitHub 사용법
 
 ### ✅ GitHub 계정 만드는 순서 (2025년 기준)
