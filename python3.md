@@ -42,19 +42,13 @@ Python에서 주의해야 할 점들
 | `print(my_list[2])` | `3` | 올바름 (마지막 요소, 인덱스 2) |
 | `print(my_list[-1])` | `3` | 올바름 (뒤에서 첫 번째 요소) |
 
-
-my_list = [1, 2, 3]
-print(my_list[3])  # 에러! 인덱스 범위 초과
-print(my_list[2])  # 올바름 (마지막 요소)
-print(my_list[-1]) # 올바름 (뒤에서 첫 번째)
-
-|:----------|
-| `if True: print("Hello")  # 들여쓰기 없음` | `if True:    print("Hello")  # 스페이스 4개` |
 - 리스트 복사 주의
-list1 = [1, 2, 3]
-list2 = list1        # 참조 복사 (같은 메모리)
-list2.append(4)
-print(list1)         # [1, 2, 3, 4] - 원본도 변경됨!
+| 코드 | 결과 | 설명 |
+|:-----|:-----|:-----|
+| `list1 = [1, 2, 3]` | 리스트 생성 | 원본 리스트 생성 |
+| `list2 = list1` | 참조 복사 | 같은 메모리를 가리킴 (얕은 복사) |
+| `list2.append(4)` | list2에 4 추가 | list1과 list2가 같은 객체이므로 둘 다 변경됨 |
+| `print(list1)` | `[1, 2, 3, 4]` | 원본도 변경됨! list2 변경이 list1에도 영향 |
 
 - 올바른 복사 방법
 list2 = list1.copy()  # 또는 list1[:]
