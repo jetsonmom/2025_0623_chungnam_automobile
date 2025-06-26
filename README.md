@@ -6,7 +6,7 @@
 - [Colab 기초](colab-guide.md)
 
 ## 2. About Python3
-- [Python basic](./python3.md)
+- [Python basic](python3.md)
 
 ## 3.  data structure / data sciencs
 
