@@ -1,4 +1,4 @@
-## 'for 문' 이해 애니메이션
+## 'for' 문장 이해 애니메이션
 https://claude.ai/public/artifacts/43d99aef-05fa-443d-ab78-065d9606a917
 https://claude.ai/public/artifacts/0ef57f69-96fa-4833-9b40-9ea79b0bd691
 
