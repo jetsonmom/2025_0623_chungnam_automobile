@@ -27,53 +27,27 @@ Python에서 주의해야 할 점들
 
   ![image](https://github.com/user-attachments/assets/dacf6292-bb80-44da-b05f-fff67cf9dba9)
 
-
-
-
 - 문자열 처리 주의사항
   ![image](https://github.com/user-attachments/assets/7d15fb9d-3a1b-49f3-ba09-dea56de1ce15)
 
 
-# 따옴표 주의
-# 잘못된 경우
-# 올바른 경우
-text = "She said "Hello""  # 에러!
-text = "She said \"Hello\""  # 올바름
-text = 'She said "Hello"'   # 올바름
-
-
-
-# 문자열과 숫자 연산
-# 잘못된 경우
-# 올바른 경우
-age = 25
-print("나이: " + age)   # 에러! 타입 불일치
-age = 25
-print("나이: " + str(age))   # 올바름
-print(f"나이: {age}")        # 올바름 (f-string)
-
-
-
-
-
-
-
-
 
 리스트와 인덱스
-인덱스 범위 주의
+- 인덱스 범위 주의
 my_list = [1, 2, 3]
 print(my_list[3])  # 에러! 인덱스 범위 초과
 print(my_list[2])  # 올바름 (마지막 요소)
 print(my_list[-1]) # 올바름 (뒤에서 첫 번째)
 
-리스트 복사 주의
+|:----------|
+| `if True: print("Hello")  # 들여쓰기 없음` | `if True:    print("Hello")  # 스페이스 4개` |
+- 리스트 복사 주의
 list1 = [1, 2, 3]
 list2 = list1        # 참조 복사 (같은 메모리)
 list2.append(4)
 print(list1)         # [1, 2, 3, 4] - 원본도 변경됨!
 
-# 올바른 복사 방법
+- 올바른 복사 방법
 list2 = list1.copy()  # 또는 list1[:]
 
 반복문과 조건문
