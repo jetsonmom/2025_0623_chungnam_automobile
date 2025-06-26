@@ -27,17 +27,13 @@ Python에서 주의해야 할 점들
 
 ![image](https://github.com/user-attachments/assets/dacf6292-bb80-44da-b05f-fff67cf9dba9)
 
-# 잘못된 변수명
-# 올바른 변수명
-2name = "John"     # 숫자로 시작
-my-name = "John"   # 하이픈 사용
-class = "A"        # 예약어 사용
-name2 = "John"
-my_name = "John"
-class_name = "A"
 
 
-문자열 처리 주의사항
+
+- 문자열 처리 주의사항
+  ![image](https://github.com/user-attachments/assets/7d15fb9d-3a1b-49f3-ba09-dea56de1ce15)
+
+
 # 따옴표 주의
 # 잘못된 경우
 # 올바른 경우
