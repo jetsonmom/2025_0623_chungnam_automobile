@@ -1,39 +1,51 @@
-Python에서 주의해야 할 점들
+# Python에서 주의해야 할 점들
 
-- 문법 관련 주의사항
+## 문법 관련 주의사항
 
-- 들여쓰기 (Indentation)
-
+### 들여쓰기 (Indentation)
 - Python은 들여쓰기로 코드 블록을 구분합니다
-
 - 탭과 스페이스를 섞어 쓰면 안 됩니다
-
 - 일관성 있게 스페이스 4개 또는 탭 사용
 
-   ![image](https://github.com/user-attachments/assets/8686a8a1-0bb8-4812-a8ac-d79c685bff2e)
+| 구분 | 코드 | 설명 |
+|:-----|:-----|:-----|
+| 올바른 코드 | `if True:` | 조건문 시작 |
+| 올바른 코드 | `    print("Hello")` | 스페이스 4개로 들여쓰기 |
+| 에러 코드 | `	print("World")` | 탭 문자 사용 - 에러! 들여쓰기 혼용 불가 |
 
-
- 대소문자 구분
+### 대소문자 구분
 - Python은 대소문자를 구분합니다
 - Print와 print는 완전히 다른 것
-   ![image](https://github.com/user-attachments/assets/7cf99bac-2547-4476-9239-ea6bdad77d6b)
 
+| 구분 | 코드 | 설명 |
+|:-----|:-----|:-----|
+| 에러 | `Print("Hello")` | NameError! Print는 정의되지 않음 |
+| 올바름 | `print("Hello")` | 올바른 함수명 |
 
-변수와 데이터 타입
+## 변수와 데이터 타입
+
 ### 변수명 규칙
-- 숫자로 시작할 수 없음
-- 특수문자 사용 불가 (밑줄 _ 제외)
-- 예약어 사용 불가
 
-  ![image](https://github.com/user-attachments/assets/dacf6292-bb80-44da-b05f-fff67cf9dba9)
+| 구분 | 예시 | 설명 |
+|:-----|:-----|:-----|
+| 잘못된 변수명 | `2name = "John"` | 숫자로 시작 불가 |
+| 잘못된 변수명 | `my-name = "John"` | 하이픈(-) 사용 불가 |
+| 잘못된 변수명 | `class = "A"` | 예약어 사용 불가 |
+| 올바른 변수명 | `name2 = "John"` | 숫자는 뒤에 사용 가능 |
+| 올바른 변수명 | `my_name = "John"` | 밑줄(_) 사용 가능 |
+| 올바른 변수명 | `class_name = "A"` | 예약어 회피 |
 
-- 문자열 처리 주의사항
-  ![image](https://github.com/user-attachments/assets/7d15fb9d-3a1b-49f3-ba09-dea56de1ce15)
+### 문자열 처리 주의사항
 
+| 구분 | 코드 | 설명 |
+|:-----|:-----|:-----|
+| 에러 | `text = "I'm happy"` | 작은따옴표 충돌 |
+| 올바름 | `text = "I'm happy"` | 큰따옴표로 감싸기 |
+| 올바름 | `text = 'I\'m happy'` | 이스케이프 문자 사용 |
 
+## 리스트와 인덱스
 
-리스트와 인덱스
-- 인덱스 범위 주의
+### 인덱스 범위 주의
 
 | 코드 | 결과 | 설명 |
 |:-----|:-----|:-----|
@@ -42,61 +54,40 @@ Python에서 주의해야 할 점들
 | `print(my_list[2])` | `3` | 올바름 (마지막 요소, 인덱스 2) |
 | `print(my_list[-1])` | `3` | 올바름 (뒤에서 첫 번째 요소) |
 
-- 리스트 복사 주의
+### 리스트 복사 주의
 
-  
 | 코드 | 결과 | 설명 |
 |:-----|:-----|:-----|
 | `list1 = [1, 2, 3]` | 리스트 생성 | 원본 리스트 생성 |
 | `list2 = list1` | 참조 복사 | 같은 메모리를 가리킴 (얕은 복사) |
 | `list2.append(4)` | list2에 4 추가 | list1과 list2가 같은 객체이므로 둘 다 변경됨 |
-| `print(list1)` | `[1, 2, 3, 4]` | 원본도 변경됨! list2 변경이 list1에도 영향
+| `print(list1)` | `[1, 2, 3, 4]` | 원본도 변경됨! list2 변경이 list1에도 영향 |
 
+## 함수 관련
 
+### 매개변수 기본값 주의
 
+| 구분 | 코드 | 설명 |
+|:-----|:-----|:-----|
+| 위험한 코드 | `def add_item(item, my_list=[]):` | 기본값이 공유됨 - 문제! |
+| 위험한 코드 | `    my_list.append(item)` | 모든 함수 호출이 같은 리스트 사용 |
+| 위험한 코드 | `    return my_list` | 예상과 다른 결과 발생 |
+| 올바른 코드 | `def add_item(item, my_list=None):` | None을 기본값으로 사용 |
+| 올바른 코드 | `    if my_list is None:` | None 체크 |
+| 올바른 코드 | `        my_list = []` | 새로운 리스트 생성 |
 
-함수 관련
-- 매개변수 기본값 주의
-- 위험한 코드
+## 예외 처리
 
-def add_item(item, my_list=[]):
-    my_list.append(item)
-    return my_list
-```
+### 예외 처리 습관화
 
-- 문제: 기본값이 공유됨
-
-```
-list1 = add_item("apple")
-list2 = add_item("banana")
-print(list2)  # ['apple', 'banana'] - 예상과 다름!
-```
-- 올바른 코드
-  ```
-def add_item(item, my_list=None):
-    if my_list is None:
-        my_list = []
-    my_list.append(item)
-    return my_list
-```
-예외 처리
-예외 처리 습관화
-- 위험한 코드
-```
-number = int(input("숫자 입력: "))  # 문자 입력 시 에러!
-```
-# 안전한 코드
-
-try:
-    number = int(input("숫자 입력: "))
-    result = 10 / number
-    print(f"결과: {result}")
-except ValueError:
-    print("숫자를 입력해주세요")
-except ZeroDivisionError:
-    print("0으로 나눌 수 없습니다")
-
-# Python 일반적인 실수들 정리
+| 구분 | 코드 | 설명 |
+|:-----|:-----|:-----|
+| 위험한 코드 | `number = int(input("숫자 입력: "))` | 문자 입력 시 ValueError 발생 |
+| 위험한 코드 | `result = 10 / number` | 0 입력 시 ZeroDivisionError 발생 |
+| 안전한 코드 | `try:` | 예외 처리 시작 |
+| 안전한 코드 | `    number = int(input("숫자 입력: "))` | 예외 발생 가능한 코드 |
+| 안전한 코드 | `except ValueError:` | 값 에러 처리 |
+| 안전한 코드 | `    print("숫자를 입력해주세요")` | 에러 메시지 출력 |
 
 ## 파일 처리
 
@@ -121,7 +112,7 @@ except ZeroDivisionError:
 | 비효율적 | `result += str(i)` | 매번 새로운 문자열 객체 생성 (메모리 낭비) |
 | 효율적 | `result = "".join(str(i) for i in range(1000))` | 한 번에 모든 문자열을 결합 (메모리 효율적) |
 
-## 일반적인 실수들
+## 기타 실수들
 
 ### print문에서 괄호 빠뜨리기
 
@@ -129,14 +120,6 @@ except ZeroDivisionError:
 |:-----|:-----|:-----|
 | Python 2 스타일 | `print "Hello"` | 에러! Python 3에서는 작동하지 않음 |
 | Python 3 스타일 | `print("Hello")` | 올바름 - 반드시 괄호 사용 |
-
-### 들여쓰기 혼용
-
-| 구분 | 코드 | 설명 |
-|:-----|:-----|:-----|
-| 올바른 코드 | `if True:` | 조건문 시작 |
-| 올바른 코드 | `    print("Hello")` | 스페이스 4개로 들여쓰기 |
-| 에러 코드 | `	print("World")` | 탭 문자 사용 - 에러! 들여쓰기 혼용 불가 |
 
 ### 전역변수 사용 주의
 
