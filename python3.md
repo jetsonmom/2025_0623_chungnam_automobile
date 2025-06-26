@@ -5,22 +5,17 @@ Python은 들여쓰기로 코드 블록을 구분합니다
 탭과 스페이스를 섞어 쓰면 안 됩니다
 일관성 있게 스페이스 4개 또는 탭 사용
 
-| 잘못된 예 | 올바른 예 |
-|:----------|:-----------:|
-| `if True: print("Hello")  # 들여쓰기 없음` | `if True:    print("Hello")  # 스페이스 4개` |
+![image](https://github.com/user-attachments/assets/8686a8a1-0bb8-4812-a8ac-d79c685bff2e)
+![image](https://github.com/user-attachments/assets/8686a8a1-0bb8-4812-a8ac-d79c685bff2e)
 
-| 잘못된 예 | 올바른 예 |
-|:----------|:-----------:|
-| `if True:print("Hello")  # 들여쓰기 없음 - 에러!` | `if True:1234 print("Hello")  # 스페이스 4개, 4칸띄기기   ` |
 
-대소문자 구분
+
+### 대소문자 구분
 Python은 대소문자를 구분합니다
 Print와 print는 완전히 다른 것
 ![image](https://github.com/user-attachments/assets/7cf99bac-2547-4476-9239-ea6bdad77d6b)
 
-| 잘못된 예 | 올바른 예 |
-|:----------|:-----------:|
-| `Print("Hello")  # 에러! (대문자 P)` | `print("Hello")  # 올바름 ` |
+
 
 
 
