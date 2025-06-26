@@ -96,25 +96,23 @@ except ValueError:
 except ZeroDivisionError:
     print("0으로 나눌 수 없습니다")
 
-파일 처리
-파일을 열었으면 반드시 닫아야 합니다!
-파일 닫기 잊지 말기
-- 위험한 코드
-file = open("data.txt", "r")
-data = file.read()
-# file.close() # 파일을 닫지 않음 ← 문제!
+# Python 일반적인 실수들 정리
 
-- 안전한 코드
-with문 사용 (권장), 자동으로 파일이 닫힘
+## 파일 처리
 
-```
-with open("data.txt", "r") as file:
-    data = file.read()
-```
+### 파일을 열었으면 반드시 닫아야 합니다!
 
-성능 관련
-문자열 연결 최적화
+| 구분 | 코드 | 설명 |
+|:-----|:-----|:-----|
+| 위험한 코드 | `file = open("data.txt", "r")` | 파일을 열음 |
+| 위험한 코드 | `data = file.read()` | 데이터를 읽음 |
+| 위험한 코드 | `# file.close() 잊음!` | 파일을 닫지 않음 ← 문제! |
+| 안전한 코드 | `with open("data.txt", "r") as file:` | with문 사용 (권장) |
+| 안전한 코드 | `    data = file.read()` | 자동으로 파일이 닫힘 |
 
+## 성능 관련
+
+### 문자열 연결 최적화
 
 | 구분 | 코드 | 설명 |
 |:-----|:-----|:-----|
@@ -123,38 +121,30 @@ with open("data.txt", "r") as file:
 | 비효율적 | `result += str(i)` | 매번 새로운 문자열 객체 생성 (메모리 낭비) |
 | 효율적 | `result = "".join(str(i) for i in range(1000))` | 한 번에 모든 문자열을 결합 (메모리 효율적) |
 
-- 비효율적
-result = ""
-for i in range(1000):
-    result += str(i)  # 매번 새로운 문자열 객체 생성
+## 일반적인 실수들
 
-# 효율적
-result = "".join(str(i) for i in range(1000))
+### print문에서 괄호 빠뜨리기
 
-일반적인 실수들
-print문에서 괄호 빠뜨리기
-# Python 2 스타일 (에러!)
-print "Hello"
+| 구분 | 코드 | 설명 |
+|:-----|:-----|:-----|
+| Python 2 스타일 | `print "Hello"` | 에러! Python 3에서는 작동하지 않음 |
+| Python 3 스타일 | `print("Hello")` | 올바름 - 반드시 괄호 사용 |
 
-# Python 3 스타일 (올바름)
-print("Hello")
+### 들여쓰기 혼용
 
-들여쓰기 혼용
-# 에러 발생하는 코드
-if True:
-    print("Hello")  # 스페이스 4개
-	print("World")  # 탭 문자 - 에러!
+| 구분 | 코드 | 설명 |
+|:-----|:-----|:-----|
+| 올바른 코드 | `if True:` | 조건문 시작 |
+| 올바른 코드 | `    print("Hello")` | 스페이스 4개로 들여쓰기 |
+| 에러 코드 | `	print("World")` | 탭 문자 사용 - 에러! 들여쓰기 혼용 불가 |
 
-전역변수 사용 주의
-count = 0
+### 전역변수 사용 주의
 
-def increment():
-    global count  # global 키워드 필요
-    count += 1
-
-def increment_wrong():
-    count += 1  # 에러! 지역변수로 인식
-
-이런 점들을 주의하면서 코딩하면 Python을 더 안전하고 효율적으로 사용할 수 있어요!
-
-
+| 구분 | 코드 | 설명 |
+|:-----|:-----|:-----|
+| 전역변수 선언 | `count = 0` | 전역변수 초기화 |
+| 올바른 함수 | `def increment():` | 함수 정의 |
+| 올바른 함수 | `    global count` | global 키워드 필요 |
+| 올바른 함수 | `    count += 1` | 전역변수 수정 가능 |
+| 에러 함수 | `def increment_wrong():` | 잘못된 함수 정의 |
+| 에러 함수 | `    count += 1` | 에러! global 없이 수정 시도 (지역변수로 인식) |
