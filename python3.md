@@ -1,8 +1,13 @@
 Python에서 주의해야 할 점들
+
 문법 관련 주의사항
+
 들여쓰기 (Indentation)
+
 Python은 들여쓰기로 코드 블록을 구분합니다
+
 탭과 스페이스를 섞어 쓰면 안 됩니다
+
 일관성 있게 스페이스 4개 또는 탭 사용
 
 ![image](https://github.com/user-attachments/assets/8686a8a1-0bb8-4812-a8ac-d79c685bff2e)
