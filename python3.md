@@ -6,8 +6,6 @@ Python은 들여쓰기로 코드 블록을 구분합니다
 일관성 있게 스페이스 4개 또는 탭 사용
 
 ![image](https://github.com/user-attachments/assets/8686a8a1-0bb8-4812-a8ac-d79c685bff2e)
-![image](https://github.com/user-attachments/assets/8686a8a1-0bb8-4812-a8ac-d79c685bff2e)
-
 
 
 ### 대소문자 구분
@@ -16,15 +14,14 @@ Print와 print는 완전히 다른 것
 ![image](https://github.com/user-attachments/assets/7cf99bac-2547-4476-9239-ea6bdad77d6b)
 
 
-
-
-
-
 변수와 데이터 타입
 변수명 규칙
 숫자로 시작할 수 없음
 특수문자 사용 불가 (밑줄 _ 제외)
 예약어 사용 불가
+
+![image](https://github.com/user-attachments/assets/dacf6292-bb80-44da-b05f-fff67cf9dba9)
+
 # 잘못된 변수명
 # 올바른 변수명
 2name = "John"     # 숫자로 시작
