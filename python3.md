@@ -57,14 +57,15 @@ Python에서 주의해야 할 점들
 
 함수 관련
 - 매개변수 기본값 주의
-```
-# 위험한 코드
+- 위험한 코드
+
 def add_item(item, my_list=[]):
     my_list.append(item)
     return my_list
 ```
 
 - 문제: 기본값이 공유됨
+
 ```
 list1 = add_item("apple")
 list2 = add_item("banana")
@@ -105,6 +106,7 @@ data = file.read()
 
 - 안전한 코드
 with문 사용 (권장), 자동으로 파일이 닫힘
+
 ```
 with open("data.txt", "r") as file:
     data = file.read()
@@ -112,6 +114,8 @@ with open("data.txt", "r") as file:
 
 성능 관련
 문자열 연결 최적화
+
+
 | 구분 | 코드 | 설명 |
 |:-----|:-----|:-----|
 | 비효율적 | `result = ""` | 빈 문자열로 초기화 |
