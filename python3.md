@@ -10,13 +10,13 @@ Python에서 주의해야 할 점들
 
 - 일관성 있게 스페이스 4개 또는 탭 사용
 
-  ![image](https://github.com/user-attachments/assets/8686a8a1-0bb8-4812-a8ac-d79c685bff2e)
+   ![image](https://github.com/user-attachments/assets/8686a8a1-0bb8-4812-a8ac-d79c685bff2e)
 
 
  대소문자 구분
 - Python은 대소문자를 구분합니다
 - Print와 print는 완전히 다른 것
-  ![image](https://github.com/user-attachments/assets/7cf99bac-2547-4476-9239-ea6bdad77d6b)
+   ![image](https://github.com/user-attachments/assets/7cf99bac-2547-4476-9239-ea6bdad77d6b)
 
 
 변수와 데이터 타입
