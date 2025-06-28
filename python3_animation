@@ -28,69 +28,85 @@
 ## 🎮 기초 프로그래밍
 
 ### 🔀 조건문 (if문)
-| 제목 | 설명 | 링크 |
-|------|------|------|
-| **if문 기초 애니메이션** | 들여쓰기와 else 사용법을 단계별로 학습 | [🎬 체험하기](https://claude.ai/public/artifacts/c1bc6203-39e9-4922-9fb2-fb1bb9d65974) |
-| **if문 심화 애니메이션** | 복잡한 조건문과 elif 사용법 | [🎬 체험하기](https://claude.ai/public/artifacts/c4930755-4bdf-4ba4-8bf8-bf2facf5b0e2) |
-| **if문 플로우차트** | 조건문의 실행 흐름을 도식화 | [📊 보기](https://claude.ai/public/artifacts/7ca75e3e-3f97-4753-b5b1-b350f24101eb) |
+
+- **if문 기초 애니메이션** - 들여쓰기와 else 사용법을 단계별로 학습  
+  [🎬 체험하기](https://claude.ai/public/artifacts/c1bc6203-39e9-4922-9fb2-fb1bb9d65974)
+
+- **if문 심화 애니메이션** - 복잡한 조건문과 elif 사용법  
+  [🎬 체험하기](https://claude.ai/public/artifacts/c4930755-4bdf-4ba4-8bf8-bf2facf5b0e2)
+
+- **if문 플로우차트** - 조건문의 실행 흐름을 도식화  
+  [📊 보기](https://claude.ai/public/artifacts/7ca75e3e-3f97-4753-b5b1-b350f24101eb)
 
 ### 🔄 반복문 (for문)
-| 제목 | 설명 | 링크 |
-|------|------|------|
-| **for문 기초 애니메이션** | 반복문의 작동 원리 시각화 | [🎬 체험하기](https://claude.ai/public/artifacts/43d99aef-05fa-443d-ab78-065d9606a917) |
-| **for문 심화 애니메이션** | range와 enumerate 활용법 | [🎬 체험하기](https://claude.ai/public/artifacts/0ef57f69-96fa-4833-9b40-9ea79b0bd691) |
+
+- **for문 기초 애니메이션** - 반복문의 작동 원리 시각화  
+  [🎬 체험하기](https://claude.ai/public/artifacts/43d99aef-05fa-443d-ab78-065d9606a917)
+
+- **for문 심화 애니메이션** - range와 enumerate 활용법  
+  [🎬 체험하기](https://claude.ai/public/artifacts/0ef57f69-96fa-4833-9b40-9ea79b0bd691)
 
 ### 🏗️ 객체지향 프로그래밍
-| 제목 | 설명 | 링크 |
-|------|------|------|
-| **클래스 정의 애니메이션** | 클래스와 객체의 개념을 시각적으로 설명 | [🎬 체험하기](https://claude.ai/public/artifacts/82c1fb01-030d-4ae3-abde-118676216f64) |
+
+- **클래스 정의 애니메이션** - 클래스와 객체의 개념을 시각적으로 설명  
+  [🎬 체험하기](https://claude.ai/public/artifacts/82c1fb01-030d-4ae3-abde-118676216f64)
 
 ---
 
 ## 📊 데이터 구조
 
 ### 📝 리스트 (List)
-| 제목 | 설명 | 링크 |
-|------|------|------|
-| **리스트 기초 애니메이션** | 리스트 생성, 추가, 삭제 등 기본 연산 | [🎬 체험하기](https://claude.ai/public/artifacts/fd98c798-ab20-40a4-8a3b-537503b9849c) |
-| **for문 + 리스트 활용** | 성적 처리 시스템으로 배우는 실전 활용법 | [🎬 체험하기](https://claude.ai/public/artifacts/b17766f8-a35b-446a-93e6-f9699a4ffd7a) |
+
+- **리스트 기초 애니메이션** - 리스트 생성, 추가, 삭제 등 기본 연산  
+  [🎬 체험하기](https://claude.ai/public/artifacts/fd98c798-ab20-40a4-8a3b-537503b9849c)
+
+- **for문 + 리스트 활용** - 성적 처리 시스템으로 배우는 실전 활용법  
+  [🎬 체험하기](https://claude.ai/public/artifacts/b17766f8-a35b-446a-93e6-f9699a4ffd7a)
 
 ### 📖 딕셔너리 (Dictionary)
-| 제목 | 설명 | 링크 |
-|------|------|------|
-| **딕셔너리 애니메이션** | Key-Value 구조와 딕셔너리 메소드들 | [🎬 체험하기](https://claude.ai/public/artifacts/a11af36d-c9fa-4366-9580-379644d1af5d) |
+
+- **딕셔너리 애니메이션** - Key-Value 구조와 딕셔너리 메소드들  
+  [🎬 체험하기](https://claude.ai/public/artifacts/a11af36d-c9fa-4366-9580-379644d1af5d)
 
 ---
 
 ## 🔢 NumPy & 수치 계산
 
 ### 🧮 NumPy 기초
-| 제목 | 설명 | 링크 |
-|------|------|------|
-| **NumPy 배열 애니메이션 #1** | 배열 생성과 인덱싱 | [🎬 체험하기](https://claude.ai/public/artifacts/fdea1f0a-439f-47d8-b954-956f34693a2e) |
-| **NumPy 배열 애니메이션 #2** | 배열 연산과 함수들 | [🎬 체험하기](https://claude.ai/public/artifacts/67ea834c-0f5d-4142-b653-cb8c39361daf) |
-| **NumPy 배열 애니메이션 #3** | 고급 배열 조작 기법 | [🎬 체험하기](https://claude.ai/public/artifacts/0594c0ae-662a-4c1b-b29f-16dc69aff934) |
-| **NumPy 배열 애니메이션 #4** | 다차원 배열과 reshape | [🎬 체험하기](https://claude.ai/public/artifacts/1e3fa69c-f438-41f7-9f6c-ad3364e4c0fe) |
+
+- **NumPy 배열 애니메이션 #1** - 배열 생성과 인덱싱  
+  [🎬 체험하기](https://claude.ai/public/artifacts/fdea1f0a-439f-47d8-b954-956f34693a2e)
+
+- **NumPy 배열 애니메이션 #2** - 배열 연산과 함수들  
+  [🎬 체험하기](https://claude.ai/public/artifacts/67ea834c-0f5d-4142-b653-cb8c39361daf)
+
+- **NumPy 배열 애니메이션 #3** - 고급 배열 조작 기법  
+  [🎬 체험하기](https://claude.ai/public/artifacts/0594c0ae-662a-4c1b-b29f-16dc69aff934)
+
+- **NumPy 배열 애니메이션 #4** - 다차원 배열과 reshape  
+  [🎬 체험하기](https://claude.ai/public/artifacts/1e3fa69c-f438-41f7-9f6c-ad3364e4c0fe)
 
 ### 📡 고급 NumPy
-| 제목 | 설명 | 링크 |
-|------|------|------|
-| **브로드캐스팅 애니메이션** | NumPy의 강력한 브로드캐스팅 개념 시각화 | [🎬 체험하기](https://claude.ai/public/artifacts/1e559e5e-1a60-4c8f-8971-69d9d00581ae) |
+
+- **브로드캐스팅 애니메이션** - NumPy의 강력한 브로드캐스팅 개념 시각화  
+  [🎬 체험하기](https://claude.ai/public/artifacts/1e559e5e-1a60-4c8f-8971-69d9d00581ae)
 
 ---
 
 ## 🌍 실전 프로젝트
 
 ### 🗺️ 지리 정보 시스템
-| 제목 | 설명 | 링크 |
-|------|------|------|
-| **GPS 좌표 처리 애니메이션** | 실제 위치 데이터를 활용한 지리 정보 처리 | [🎬 체험하기](https://claude.ai/public/artifacts/b16c6b7d-4afc-46ab-bd09-778bcd3bb149) |
+
+- **GPS 좌표 처리 애니메이션** - 실제 위치 데이터를 활용한 지리 정보 처리  
+  [🎬 체험하기](https://claude.ai/public/artifacts/b16c6b7d-4afc-46ab-bd09-778bcd3bb149)
 
 ### 🎨 코드 시각화
-| 제목 | 설명 | 링크 |
-|------|------|------|
-| **코드 시각화 애니메이션 #1** | 프로그래밍 개념의 시각적 표현 | [🎬 체험하기](https://claude.ai/public/artifacts/18c2a867-f413-4ed4-856e-0e9070ac7256) |
-| **코드 시각화 애니메이션 #2** | 고급 시각화 기법과 인터랙션 | [🎬 체험하기](https://claude.ai/public/artifacts/efb7d172-d019-4dd5-a204-1d13155a5ac0) |
+
+- **코드 시각화 애니메이션 #1** - 프로그래밍 개념의 시각적 표현  
+  [🎬 체험하기](https://claude.ai/public/artifacts/18c2a867-f413-4ed4-856e-0e9070ac7256)
+
+- **코드 시각화 애니메이션 #2** - 고급 시각화 기법과 인터랙션  
+  [🎬 체험하기](https://claude.ai/public/artifacts/efb7d172-d019-4dd5-a204-1d13155a5ac0)
 
 ---
 
@@ -117,16 +133,10 @@
 
 ## 🛠️ 기술 스택
 
-<div align="center">
-
-| 카테고리 | 기술 |
-|----------|------|
-| **프론트엔드** | HTML5, CSS3, JavaScript (ES6+) |
-| **애니메이션** | CSS Animations, JavaScript Transitions |
-| **스타일링** | Flexbox, Grid, Gradient, Glassmorphism |
-| **교육 도구** | Interactive Demos, Step-by-step Tutorials |
-
-</div>
+**프론트엔드**: HTML5, CSS3, JavaScript (ES6+)  
+**애니메이션**: CSS Animations, JavaScript Transitions  
+**스타일링**: Flexbox, Grid, Gradient, Glassmorphism  
+**교육 도구**: Interactive Demos, Step-by-step Tutorials
 
 ---
 
@@ -180,71 +190,3 @@
 *Made with ❤️ for Python learners everywhere*
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## if문 애니메이션
-https://claude.ai/public/artifacts/c1bc6203-39e9-4922-9fb2-fb1bb9d65974
-https://claude.ai/public/artifacts/c4930755-4bdf-4ba4-8bf8-bf2facf5b0e2
-
-if문 흐름도
-https://claude.ai/public/artifacts/7ca75e3e-3f97-4753-b5b1-b350f24101eb
-
-for문 애니메이션
-https://claude.ai/public/artifacts/43d99aef-05fa-443d-ab78-065d9606a917
-https://claude.ai/public/artifacts/0ef57f69-96fa-4833-9b40-9ea79b0bd691
-
-클래스 정의
-애니메이션 
-https://claude.ai/public/artifacts/82c1fb01-030d-4ae3-abde-118676216f64
-
-  리스트 애니메이션 
-https://claude.ai/public/artifacts/fd98c798-ab20-40a4-8a3b-537503b9849c
-
- for+list 애니메이션 성적 내기
-https://claude.ai/public/artifacts/b17766f8-a35b-446a-93e6-f9699a4ffd7a
-
-딕셔너리 애니메이션
-https://claude.ai/public/artifacts/a11af36d-c9fa-4366-9580-379644d1af5d
-
-
-numpy 애니메이션
-https://claude.ai/public/artifacts/fdea1f0a-439f-47d8-b954-956f34693a2e
-
-
-https://claude.ai/public/artifacts/67ea834c-0f5d-4142-b653-cb8c39361daf
-
-https://claude.ai/public/artifacts/0594c0ae-662a-4c1b-b29f-16dc69aff934
-
-https://claude.ai/public/artifacts/1e3fa69c-f438-41f7-9f6c-ad3364e4c0fe
-
-브로드캐스팅 애니메이션
-https://claude.ai/public/artifacts/1e559e5e-1a60-4c8f-8971-69d9d00581ae
-
-GPS 좌표 처리
-애니메이션
-https://claude.ai/public/artifacts/b16c6b7d-4afc-46ab-bd09-778bcd3bb149
- 코드  시각화 애니메이션
-https://claude.ai/public/artifacts/18c2a867-f413-4ed4-856e-0e9070ac7256
-
-
-
-
-
-https://claude.ai/public/artifacts/efb7d172-d019-4dd5-a204-1d13155a5ac0
-
