@@ -1,4 +1,4 @@
-# 🐍 Python 학습 애니메이션&emsp;&emsp;made by 젯슨맘 claude.ai로 만듦
+# 🐍 Python 학습 애니메이션&emsp;&emsp;&emsp;&emsp;made by 젯슨맘 claude.ai로 만듦
 
 <div align="center">
 
