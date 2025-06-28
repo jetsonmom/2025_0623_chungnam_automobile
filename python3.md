@@ -1,4 +1,4 @@
-# 🐍 Python 학습 애니메이션 컬렉션
+# 🐍 Python 학습 애니메이션 컬렉션  만든사람 : 젯슨맘 claude.ai로 만듦
 
 <div align="center">
 
