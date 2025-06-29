@@ -1,4 +1,4 @@
-# 🐍 Python 학습 애니메이션&emsp;&emsp;&emsp;made by 젯슨맘 &emsp;using claude.ai
+# 1. 🐍 Python 학습 애니메이션&emsp;&emsp;&emsp;made by 젯슨맘 &emsp;using claude.ai
 
 <div align="center">
 
@@ -106,91 +106,9 @@
 
 ---
 
-## 🚀 시작하기
-
-### 📋 사전 요구사항
-- 🌐 모던 웹 브라우저 (Chrome, Firefox, Safari, Edge)
-- 🧠 Python에 대한 기본적인 호기심
-- ⏰ 학습 의지와 약간의 시간
-
-### 🎯 사용법
-1. **관심 있는 주제 선택**: 위 표에서 배우고 싶은 개념을 찾아보세요
-2. **링크 클릭**: 🎬 체험하기 링크를 클릭해서 애니메이션을 실행하세요
-3. **단계별 학습**: 각 애니메이션은 단계별로 구성되어 있습니다
-4. **반복 학습**: 이해할 때까지 반복해서 시청하세요
-
-### 💡 학습 팁
-- 📝 **코드 따라하기**: 애니메이션을 보면서 직접 코드를 작성해보세요
-- 🔄 **반복 학습**: 이해가 안 되는 부분은 여러 번 반복해서 보세요
-- 🤝 **커뮤니티 활용**: 궁금한 점이 있으면 이슈나 디스커션을 활용하세요
-- 🎯 **순서대로 학습**: 기초부터 차근차근 진행하는 것을 추천합니다
-
----
-
-## 🛠️ 기술 스택
-
-| 카테고리 | 기술 |
-|----------|------|
-| **프론트엔드** | HTML5, CSS3, JavaScript (ES6+) |
-| **애니메이션** | CSS Animations, JavaScript Transitions |
-| **스타일링** | Flexbox, Grid, Gradient, Glassmorphism |
-| **교육 도구** | Interactive Demos, Step-by-step Tutorials |
-
----
-
-## 📈 프로젝트 상태
-
-- ✅ **기초 문법**: if문, for문, 클래스 완료
-- ✅ **데이터 구조**: 리스트, 딕셔너리 완료  
-- ✅ **NumPy**: 기초부터 브로드캐스팅까지 완료
-- ✅ **실전 프로젝트**: GPS 처리, 코드 시각화 완료
-- 🔄 **지속적 업데이트**: 새로운 주제들 추가 예정
-
----
-
-## 🤝 기여하기
-
-이 프로젝트는 오픈소스입니다! 기여를 환영합니다.
-
-1. 🍴 **Fork** this repository
-2. 🌿 Create a **feature branch** (`git checkout -b feature/amazing-animation`)
-3. 💾 **Commit** your changes (`git commit -m 'Add amazing animation'`)
-4. 📤 **Push** to the branch (`git push origin feature/amazing-animation`)
-5. 🔄 Open a **Pull Request**
-
----
-
-## 📄 라이선스
-
-이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
-
----
-
-## 📞 연락처
-
-프로젝트에 대한 질문이나 제안사항이 있으시면 언제든 연락주세요!
-
-<div align="center">
-
-[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-red?style=for-the-badge&logo=github)](https://github.com/username/python-learning-animations/issues)
-[![Discussions](https://img.shields.io/badge/GitHub-Discussions-blue?style=for-the-badge&logo=github)](https://github.com/username/python-learning-animations/discussions)
-
-**⭐ 이 프로젝트가 도움이 되셨다면 Star를 눌러주세요! ⭐**
-
-</div>
-
----
-
-<div align="center">
-
-**🎓 함께 배우고, 함께 성장하는 Python 학습 여정 🎓**
-
-*Made with ❤️ for Python learners everywhere*
-
-</div>
 
 
-# 자율주행에서 파이썬 자료구조 사용법
+# 2. 📊 자율주행에서 파이썬 자료구조 사용법
 
 ## 📊 자료구조 비교표
 
